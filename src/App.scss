@@ -1,0 +1,139 @@
+.wrapper{
+    .inner-wrapper{
+        display: flex;
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 24%;
+            margin: 0 auto;
+            margin-top: 7%;
+            gap: 22px;
+            padding: 45px;
+            height: 17rem;
+            border-radius: 5%;
+            border: 1px solid;
+
+                .input-name{
+                    margin-top: 7%;
+                }
+
+                input, .input-phone {
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid;
+                }
+
+                input.form-control{
+                    border: none;
+                }
+
+                .input-image{
+                    border: none;
+                }
+
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                button{
+                    cursor: pointer;
+                    color: white;
+                    border: none;
+                    background: #8FE04F;
+                    font-size: 13px;
+                    padding: 3%;
+                    border-radius: 10px;
+                    transition: 0.3s;
+                    
+                }
+
+                button:hover{
+                    color: black;
+                }
+
+                .btn-save{
+                    color: white;
+                    background-color: #fd9103;
+                }
+
+        }
+    }
+}
+
+
+
+div{
+
+    ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid;
+    width: 46%;
+    margin: 0 auto;
+    padding: 9px;
+    border-radius: 13px;
+    margin-top: 20px;
+
+    .li-name{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .li-phone{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .li-email{
+        color: #696969;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+        li{
+            list-style-type: none;
+
+            img{
+                height: 70px;
+                width: 70px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+
+         div{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            button{
+                font-size: 11px;
+                width: 7rem;
+                padding: 6%;
+                border: none;
+                border-radius: 5%;
+                transition: 0.3s;
+            }
+
+            .btn-edit{
+                background-color: #fd9103;
+                color: white;
+            }
+
+            .btn-delete{
+                background-color: #e21717;
+                color: white;
+            }
+
+            button:hover{
+                color: black;
+            }
+         }
+    }
+}
