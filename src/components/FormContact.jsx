@@ -37,7 +37,7 @@ const FormContact = (props) => {
           </li>
         ))}
       </ul> */}
-      <a href="#" onClick={() => navigate('/')}>ADDd</a>
+      <a href="#" onClick={() => navigate('/')}>ADD</a>
         </div>
   )
 }
